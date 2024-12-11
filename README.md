@@ -1,1 +1,3 @@
-# Rust lib template
+# Cogitate
+
+Algorithms made in Rust

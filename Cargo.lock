@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "rust-lib-template"
+name = "cogitate"
 version = "0.1.0"
