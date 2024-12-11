@@ -1,0 +1,1 @@
+# Rust lib template
