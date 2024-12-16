@@ -17,6 +17,7 @@ pub fn bubble_sort<T: PartialOrd>(arr: &mut [T]) {
   }
 }
 
+#[cfg(test)]
 mod tests {
   use super::*;
 
