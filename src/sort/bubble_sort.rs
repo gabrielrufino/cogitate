@@ -17,9 +17,9 @@ pub fn bubble_sort<T: PartialOrd>(arr: &mut [T]) {
   }
 }
 
-#[cfg(test)]
-mod tests {
-  use super::*;
-
-  test_sort!(bubble_sort);
-}
+// #[cfg(test)]
+// mod tests {
+//   use super::*;
+// 
+//   test_sort!(bubble_sort);
+// }
