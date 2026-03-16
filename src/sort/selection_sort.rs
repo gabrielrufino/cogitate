@@ -3,7 +3,7 @@ pub struct SelectionSort<'a, T: Ord> {
 }
 
 impl<'a, T: Ord> SelectionSort<'a, T> {
-  pub fn new(arr: &mut [T]) -> SelectionSort<T> {
+  pub fn new(arr: &'a mut [T]) -> Self {
     SelectionSort { arr }
   }
 

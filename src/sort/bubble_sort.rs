@@ -3,7 +3,7 @@ pub struct BubbleSort<'a, T: PartialOrd> {
 }
 
 impl<'a, T: PartialOrd> BubbleSort<'a, T> {
-  pub fn new(arr: &mut [T]) -> BubbleSort<T> {
+  pub fn new(arr: &'a mut [T]) -> Self {
     BubbleSort { arr }
   }
 
